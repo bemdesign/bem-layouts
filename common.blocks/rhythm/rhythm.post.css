@@ -1,0 +1,54 @@
+.rhythm {
+  display: grid;
+  &_col-gap {
+    &_xxxxxl {
+      grid-column-gap: var(--space-xxxxxl);
+    }
+    &_xxxxl {
+      grid-column-gap: var(--space-xxxxl);
+    }
+    &_xxxl {
+      grid-column-gap: var(--space-xxxl);
+    }
+    &_s {
+      grid-column-gap: var(--space-s);
+    }
+    &_xxs {
+      grid-column-gap: var(--space-xxs);
+    }
+  }
+  &_row-gap {
+    &_xxxxxxl {
+      grid-row-gap: var(--space-xxxxxxl);
+    }
+    &_xxxxxl {
+      grid-row-gap: var(--space-xxxxxl);
+    }
+    &_xxxxl {
+      grid-row-gap: var(--space-xxxxl);
+    }
+    &_xxl {
+      grid-row-gap: var(--space-xxl);
+    }
+  }
+  &_col-ratio {
+    &_1-1-1-1-1-1 {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    &_1-1-1-1 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    &_1-1-1 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    &_1-2-1 {
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+    &_1-1 {
+      grid-template-columns: 1fr 1fr;
+    }
+    &_1-2 {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+}

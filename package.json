@@ -1,0 +1,19 @@
+{
+  "name": "bem-layouts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemdesign/bem-layouts.git"
+  },
+  "author": "Yuriy Yegorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bemdesign/bem-layouts/issues"
+  },
+  "homepage": "http://bem.design"
+}
