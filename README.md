@@ -1,3 +1,3 @@
 # bem-layouts
 
-https://codepen.io/bemdesign-blocks/pen/PpoEoz
+https://codepen.io/bemdesign-blocks/full/PpoEoz/
