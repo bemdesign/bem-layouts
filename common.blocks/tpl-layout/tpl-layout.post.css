@@ -1,0 +1,96 @@
+.tpl-layout {
+	display: grid;
+	&_col {
+		&_50-50 {
+			grid-template-columns: 50% 50%;
+		}
+		&_70-30 {
+			grid-template-columns: 70% 30%;
+		}
+		&_30-70 {
+			grid-template-columns: 30% 70%;
+		}
+		&_90-10 {
+			grid-template-columns: 90% 10%;
+		}
+		&_10-90 {
+			grid-template-columns: 10% 90%;
+		}
+
+		&_fold-100 {
+			grid-template-columns: 56px auto;
+		}
+		&_fold-50-50 {
+			grid-template-columns: 56px calc((100% - 56px) / 2) calc((100% - 56px) / 2);
+		}
+		&_fold-70-30 {
+			grid-template-columns: 56px calc((100% - 56px) / 0.7) calc((100% - 56px) / 0.3);
+		}
+		&_fold-30-70 {
+			grid-template-columns: 56px calc((100% - 56px) / 0.3) calc((100% - 56px) / 0.7);
+		}
+		&_fold-25-50-25 {
+			grid-template-columns: 56px calc((100% - 56px) / 0.25) calc((100% - 56px) / 0.50) calc((100% - 56px) / 0.25);
+		}
+		&_unfold-100 {
+			grid-template-columns: 56px calc((100% - 300px));
+		}
+	}
+	&__panel {
+		height: 72px;
+	}
+	&__heading {
+		border-bottom: 1px solid var(--color-border);
+		margin-bottom: var(--space-xxxl);
+	}
+	&__section {
+		box-sizing: border-box;
+	}
+	&__content {
+		&_size {
+			&_xs {
+				width: 25%;
+			}
+			&_s {
+				width: 50%; 
+			}
+
+			&_m {
+				width: 75%;
+			}
+
+			&_l {
+				width: 90%;
+			}
+			&_full {
+				width: 100%;
+			}
+		}
+	}
+	&__container {
+		&_size {
+			&_xs {
+				width: 560px;
+			}
+			&_s {
+				width: 880px;
+			}
+			&_m {
+				width: 1144px;
+			}
+
+			&_full {
+				width: 100%;
+				padding: 0;
+			}
+		} 
+		&_distribute {
+			&_center {
+				margin: auto;
+			}
+		}
+	}
+	&__footer {
+
+	}
+}
