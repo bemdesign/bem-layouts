@@ -1,0 +1,3 @@
+.tpl-grid_col-gap_l {
+	grid-column-gap: var(--space-l);
+}
