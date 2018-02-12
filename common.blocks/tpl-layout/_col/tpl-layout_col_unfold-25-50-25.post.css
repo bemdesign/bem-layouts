@@ -1,0 +1,3 @@
+.tpl-layout_col_unfold-25-50-25 {
+	grid-template-columns: var(--menu-unfold) calc((100% - var(--menu-unfold)) / 0.25) calc((100% - var(--menu-unfold)) / 0.50) calc((100% - var(--menu-unfold)) / 0.25);
+}
