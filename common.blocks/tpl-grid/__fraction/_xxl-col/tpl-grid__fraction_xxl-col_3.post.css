@@ -1,3 +1,5 @@
-@media screen and ( min-width: var(--screen-xxl) ) {
-	.tpl-grid__fraction_xxl-col_3 	{ 	grid-column: span 3;	}
+@media screen and (min-width: var(--screen-xxl)) {
+	.tpl-grid__fraction_xl-col_3 {
+		grid-column: span 3;
+	}
 }
