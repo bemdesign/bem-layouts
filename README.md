@@ -13,7 +13,4 @@
 
 
 
-Примеры Бракмановских сеток: https://codepen.io/bemdesign-blocks/full/PpoEoz/
-
-
-
+Примеры Брокмановских сеток: https://codepen.io/bemdesign-blocks/full/PpoEoz/
