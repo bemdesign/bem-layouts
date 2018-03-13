@@ -1,4 +1,4 @@
-@media screen and (min-width: var(--screen-xl)) {
+@media screen and (min-width: $screen-xl) {
 	.tpl-grid__fraction_xl-col_2 {
 		grid-column: span 2;
 	}

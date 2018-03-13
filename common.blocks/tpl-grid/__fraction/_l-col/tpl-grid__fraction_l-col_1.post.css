@@ -1,4 +1,4 @@
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: $screen-l) {
 	.tpl-grid__fraction_l-col_1 {
 		grid-column: span 1;
 	}
