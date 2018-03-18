@@ -73,7 +73,7 @@
 								},
 								{
 									elem: 'section',
-									mix: 'tpl-grid', mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'two-thirds' }
+									mix: 'tpl-grid', mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'two-thirds' },
 									content: [
 										{
 											block: 'foo',
