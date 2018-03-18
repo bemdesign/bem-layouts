@@ -64,7 +64,7 @@
 							content: [
 								{
 									elem: 'section',
-									mix: 'tpl-grid', mods: { ratio: '1-1-1', 'col-gap': 'half', 'row-gap': 'half' },
+									mix: { block: 'tpl-grid', mods: { ratio: '1-1-1', 'col-gap': 'half', 'row-gap': 'half' }},
 									content: [
 										{ block: 'pt-card', content: '...' },
 										{ block: 'pt-card', content: '...' },
@@ -73,7 +73,7 @@
 								},
 								{
 									elem: 'section',
-									mix: 'tpl-grid', mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'two-thirds' },
+									mix: { block: 'tpl-grid', mods: { columns: '12', 'col-gap': 'half', 'row-gap': 'two-thirds' }},
 									content: [
 										{
 											block: 'foo',
@@ -88,7 +88,7 @@
 											mix: { block: 'tpl-grid', elem: 'fraction', elemMods: { 'col': '2' }}
 										}
 									]
-								},
+								}
 							]
 						}
 					]
