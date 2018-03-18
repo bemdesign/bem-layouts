@@ -77,7 +77,7 @@
 									content: [
 										{
 											block: 'foo',
-											mix: { block: 'tpl-grid', elem: 'fraction', elemMods: { 'col': '6' }}
+											mix: { block: 'tpl-grid', elem: 'fraction', elemMods: { 'col': '6' }},
 										},
 										{
 											block: 'bar',
