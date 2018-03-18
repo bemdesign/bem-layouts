@@ -64,7 +64,7 @@
 							content: [
 								{
 									elem: 'section',
-									mix: 'tpl-grid', mods: { ratio: '1-1-1', 'col-gap': 'half', 'row-gap': 'half' }
+									mix: 'tpl-grid', mods: { ratio: '1-1-1', 'col-gap': 'half', 'row-gap': 'half' },
 									content: [
 										{ block: 'pt-card', content: '...' },
 										{ block: 'pt-card', content: '...' },
