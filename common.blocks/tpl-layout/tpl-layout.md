@@ -4,7 +4,7 @@
 ## Модификаторы
 
 ### tpl-layout
-| Модификатор	 | Значение        | Описание                         |
+| Модификатор	 | Значение        | Описание                       |
 | ------------ | --------------- | -------------------------------- |
 | structure 	| 10-90 / 30-70 / 50-50 / 70-30 / 90-10 / 20-60-20 / fold-25-50-25 / fold-30-70 / fold-50-50 / fold-70-30 / fold-100 / unfold-25-50-25 / unfold-30-70 / unfold-50-50 / unfold-70-30 / unfold-100 	| Конструкции обвязки в различных пропорциях |
 
@@ -73,7 +73,7 @@
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 'm', distribute: 'center' },
+							elemMods: { size: 'm', align: 'center' },
 							content: [
 								{
 									elem: 'section',
@@ -115,7 +115,7 @@
 					content: [
 						{
 							elem: 'container',
-							elemMods: { size: 'm', distribute: 'center' },
+							elemMods: { size: 'm', align: 'center' },
 							content: [
 								{
 									elem: 'section',
